@@ -25,20 +25,6 @@ void get_identity(string my_id[]);
 
 
 /**
-%TODO Remove the ENUM next year!
-Use this to help you enumerate the directions.
-Gets passed into one function below.
-**/
-enum direction
-{
-    NORTH,
-    SOUTH,
-    EAST,
-    WEST
-};
-
-
-/**
 Creates a dynamically allocated array of std::string elements.
 Returns a pointer to that array.
 **/
@@ -95,12 +81,12 @@ bool at_end(string *matrix, int row, int col);
 
 
 /**
-Returns true if the position indexed by row and col when incremented in direction is a valid move,and false otherwise.
+Returns true if the position indexed by row and col when incremented in direction is a valid move, and false otherwise.
 What is a valid move?
-This function checks whether the row and coly, after being incremented in 'direction', produce a valid move, not the validity of the position indexed by row and col alone.
+This function checks whether the row and col, after being incremented in 'direction', produce a valid move, not the validity of the position indexed by row and col alone.
 North is row--, South is row++, East is col++, and West is --.
 **/
-bool valid_move(string *matrix, int row, int col, direction d);
+bool valid_move(string *matrix, int row, int col, string direction);
 
 #endif
 
