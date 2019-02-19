@@ -21,7 +21,7 @@ Writes to a string array containing:
     * and Student ID# (at index 1).
 Takes as input a pre-existing length-2 string array.
 */
-void get_identity(string my_id[]);
+void get_identity(string &my_id);
 
 
 /**

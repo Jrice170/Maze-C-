@@ -69,3 +69,65 @@ I suggest reading the materials on strings here: https://mst-cs.gitlab.io/index_
 ## Due date
 Please see the schedule on the website for all due dates.
 
+# Peer review
+We will be running a 2nd pilot of a system for practicing peer-review.
+
+After your results have been pushed, you will be added to another
+student's repository (your reviewee), and another student to yours
+(your reviewer).  Each student will be reviewing another student's 
+code, and each student's code will be reviewed, i.e. you will be both 
+a reviewee *and* a reviewer.
+
+The reviewer's task is to review your assigned reviewee's code, and 
+leave feedback (by creating, writing, and committing a file named
+*review.txt* to *their reviewee's* repo) that includes (but is not
+limited to) feedback regarding the following areas:
+
+   - *Style: *Is the code style consistent, readable? Does it include
+   adequate whitespace or too much whitespace? How well does your
+   reviewee's code adhere to the Computer Science department's C++
+   coding standard? The standard is available here
+   <http://web.mst.edu/~cpp/cpp_coding_standard_v1_1.pdf>.
+   
+   - *Documentation: *Is the code documented in a way that makes the data
+   structure's implementation easy to understand? How could the documentation
+   be improved?
+
+   - *Readability/structure: *Is the data structure implemented in a way
+   that makes sense? Could the code be refactored to make it more robust or
+   logical?
+
+   - *Correctness: *Does the code implement the data structures and
+   algorithms properly? If not, how could it be fixed?
+
+   - *Efficiency: *Does the code have efficiency of coding (few lines), and
+   of computation (computational efficiency)?
+
+The reviewee's task is to use this feedback to improve their code, and
+thus their score on the assignment. Additionally, each student is
+responsible for committing a file named *quality.txt *to *their own*
+repository that contains an integer (0-100) on the first line of the
+file that represents the quality of the feedback they received from
+the reviewer, considering the following criteria:
+
+   - *Constructivity: *Did the feedback you received contain direct
+   suggestions about how your code could be improved? Were these suggestions
+   relevant and helpful?
+
+   - *Justification: *Did the reviewer's suggestions include explan=
+ations r
+   egarding *why* your code should be changed?
+
+   - *Tone: *Was the feedback kind and professional? Was the criticism you
+   received constructive (as opposed to destructive)?
+
+   - *Clarity: *Was it easy to read, with good grammar, style, and
+   structure of presented ideas?
+
+Leaving honest and constructive feedback benefits both the reviewer and
+the reviewee. As such, your final grade on this assignment will be a
+function of your regraded assignment, your original score, and the 
+quality of your feedback as evaluated by your reviewee.
+
+Your reviews and grades of review will be due at a date specified on the calendar
+
