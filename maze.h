@@ -16,7 +16,7 @@ using std::string;
 
 
 /*
-Your student ID function, copied from the last assignment!
+The your (the student author’s) Campus Username
 */
 void get_identity(string &my_id);
 
@@ -81,7 +81,8 @@ bool at_end(string *matrix, int row, int col);
 Returns true if the position indexed by row and col when incremented in direction is a valid move, and false otherwise.
 What is a valid move?
 This function checks whether the row and col, after being incremented in 'direction', produce a valid move, not the validity of the position indexed by row and col alone.
-North is row--, South is row++, East is col++, and West is --.
+"NORTH" is row--, "SOUTH" is row++, "EAST" is col++, and "WEST" is col--
+Make sure to use the above strings, exactly.
 **/
 bool valid_move(string *matrix, int row, int col, string direction);
 

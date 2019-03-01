@@ -1,2 +1,2 @@
-Username (not for points),at_end_test.cpp,build_matrix_test.cpp,fill_matrix_test.cpp,find_exit_test.cpp,find_start_test.cpp,valid_move_test.cpp,"Username accurate (0 good, 1 bad)",Bytes definitely lost (memory leak) (0 is perfect),Main output diff size (0 is perfect),Runtime across many runs (lower better),Print test (0 is good)
-jmr3by,pass,pass,pass,pass,pass,fail,0,[Errno 2] No such file or directory: 'valgrind': 'valgrind',60,Command './a.out' timed out after 10 seconds,0
+Username (not for points),at_end_test.cpp,build_matrix_test.cpp,fill_matrix_test.cpp,find_exit_test.cpp,find_start_test.cpp,"Username accurate (0 good, 1 bad)",Bytes definitely lost (memory leak) (0 is perfect),Main output diff size (0 is perfect),Runtime across many runs (lower better),Print test (0 is good)
+jmr3by,pass,pass,pass,pass,pass,0,0,60,0.003714625320171763,0
