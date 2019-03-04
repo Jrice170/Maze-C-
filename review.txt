@@ -1,0 +1,20 @@
+Style: The style is mostly consistent and readable, however the amount of
+whitespace is excessive. As far as following the department's standard, it
+dosen't, but that standard is outdated and sucks anyways.
+
+Documentation: There is almost no documentation in the code itself, but 
+the documentation in the header files is already enough.
+
+Readability/structure: Most of the code makes sense, although:
+    if( a )
+        return true
+    else
+        return false
+Can be replaced by simply:
+    return a
+
+Correctness: The code is correct, however the output does not match the sample.
+Remember to diff your output!
+
+Efficiency: The only inefficiency that stands out is creating and looping over
+arrays each time in the find_exit() function.
