@@ -2,6 +2,9 @@ Style: The style is mostly consistent and readable, however the amount of
 whitespace is excessive. As far as following the department's standard, it
 dosen't, but that standard is outdated and sucks anyways.
 
+Fuck Them
+
+
 Documentation: There is almost no documentation in the code itself, but 
 the documentation in the header files is already enough.
 
